@@ -1,0 +1,24 @@
+
+GUIA DE INSTALACIÓN
+-------------------
+
+	1. Diríjase a la ruta de la carpeta app-usuarios.
+	2. Abra una consola en la dirección de la carpeta app-usuarios y ejecute el comando 'npm install' para instalar los paquetes necesarios.
+	3. Abra Xampp y active los módulos Apache y MySql.
+	4. Diríjase a la ruta 'http://localhost/phpmyadmin' en su navegador y proceda a crear una base de datos con el nombre 'usuarios'.
+	5. Abra la consola en la direccion de la carpeta server y ejecute el comando 'composer install' para instalar los paquetes necesarios.
+	6. Abra la consola en la direccion de la carpeta server y ejecute el comando 'php artisan migrate' para subir las tablas a la base de datos.
+	7. Abra la consola en la direccion de la carpeta server y ejecute el comando 'php artisan db:seed --class=Categorias'.
+	7. Abra la consola en la direccion de la carpeta server y ejecute el comando 'php artisan serve'.
+	7. Abra la consola en la direccion de la carpeta app-usuarios y ejecute el comando 'npm run serve'.
+
+Para ver la aplicacion dirijase a la ruta 'http://localhost:8080' en caso de estar ocupado el puerto 8080 revise la consola ver su puerto asignado.
+
+NOTA: Para hacer uso de esta aplicacion debe tener los siguientes programas instalados:
+
+	- node js
+	- vue cli
+	- Composer
+	- Xampp
+
+NOTA: no se utilizó el recurso del consumo de api de paises pues al parecer no es un api publica, tampoco aparece en el api la región requerida en la prueba.
