@@ -22,3 +22,4 @@ NOTA: Para hacer uso de esta aplicacion debe tener los siguientes programas inst
 	- Xampp
 
 NOTA: no se utilizó el recurso del consumo de api de paises pues al parecer no es un api publica, tampoco aparece en el api la región requerida en la prueba.
+NOTA: Por defecto el usuario del administrador está vacío, es decir, debe definirse uno en la aplicación. En caso de no definir un correo, no se enviará un reporte de la cantidad de usuarios registrados.
