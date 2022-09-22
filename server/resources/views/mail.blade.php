@@ -1,0 +1,1 @@
+<h1>Usted se ha registrado a la plataforma de usuarios</h1>

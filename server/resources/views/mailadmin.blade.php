@@ -1,0 +1,1 @@
+<h1>Total de usuarios en la aplicación: {{ $total }}</h1>
